@@ -1,0 +1,196 @@
+body
+{width: 950px;
+margin: auto;
+margin-top: 0px;
+margin-bottom: 10px;
+background-color: #485766;
+background-image: url("../img/bg_pattern.jpg");
+background-repeat: repeat;
+}
+
+#en_tete
+{
+width: 950px;
+height: 725px;
+background-image: url("../img/castle_spring.jpg");
+background-repeat: no-repeat;
+margin: auto;
+margin-bottom: 0px;
+}
+
+.sous_menu1
+{
+padding: 0px;
+margin-left: 685px;
+position:absolute;
+top:75px;
+}
+
+#link_news
+{
+padding: 0px;
+width: 65px; 
+height: 25px;
+border: none;
+
+}
+
+.sous_menu2
+{
+padding: 0px;
+margin-left: 379px;
+position:absolute;
+top:445px;
+}
+
+#link_orcollab
+{
+padding: 0px;
+width: 104px; 
+height: 48px;
+border: none;
+}
+
+.sous_menu3
+{
+padding: 0px;
+margin-left: 580px;
+position:absolute;
+top:447px;
+}
+
+#link_oncomics
+{
+padding: 0px;
+width: 63px; 
+height: 44px;
+border: none;
+}
+
+.sous_menu4
+{
+padding: 0px;
+margin-left: 758px;
+position:absolute;
+top:446px;
+}
+
+#link_grnovels
+{
+padding: 0px;
+width: 67px; 
+height: 45px;
+border: none;
+}
+
+.sous_menu5
+{
+padding: 0px;
+margin-left: 43px;
+position:absolute;
+top:102px;
+height: 150px;
+width: 754px;
+
+}
+
+
+
+#corps
+{
+margin-left: 210px;
+margin-bottom: 20px;
+padding: 5px;
+background-color: #FFE0B1;
+
+}
+
+img
+{
+border: none;
+margin: 0px;
+padding: 0px;
+}
+
+p
+{
+margin: 0px;
+padding: 0px;
+}
+
+
+
+/*INFOBULLES */
+
+
+a.info {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   bottom: 545px;
+   text-decoration: none;
+}
+a.info span {
+   display: none; /* on masque l'infobulle */
+
+}
+a.info:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+a.info:hover span {
+   display: inline; /* on affiche l'infobulle */
+
+}
+
+img.floatLeft1 { 
+float: right; 
+margin: 4px; 
+border: none;
+position: absolute;
+ top: -206px; /* on positionne notre infobulle */
+ left: -131px;  
+
+}
+
+img.floatLeft2{ 
+margin: 0px; 
+border: none;
+position: absolute;
+ top: -204px; /* on positionne notre infobulle */
+ left: -154px;
+}
+
+img.floatLeft3{ 
+margin: 0px; 
+border: none;
+position: absolute;
+ top: -203px; /* on positionne notre infobulle */
+ left: -163px;
+}
+
+img.floatLeft4 { 
+float: right; 
+margin: 4px; 
+border: none;
+position: absolute;
+ top: -80px; /* on positionne notre infobulle */
+ left: -145px;  
+}
+
+img.floatLeft5 { 
+margin: 0px; 
+border: none;
+position: absolute;
+ top: 0px; /* on positionne notre infobulle */
+ left: 0px;  
+}
+
+img.floatLeft6 { 
+float: right; 
+margin: 4px; 
+border: none;
+position: absolute;
+ top: -290px; /* on positionne notre infobulle */
+ left: -80px;  
+}
