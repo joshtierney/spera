@@ -1,0 +1,176 @@
+body
+{width: 950px;
+margin: auto;
+margin-top: 0px;
+margin-bottom: 10px;
+background-color: #485766;
+background-image: url("../img/bg_pattern.jpg");
+background-repeat: repeat;
+}
+
+#en_tete
+{
+width: 950px;
+height: 152px;
+background-image: url("../img/ban.jpg");
+background-repeat: no-repeat;
+margin: auto;
+margin-top: 0px;
+margin-bottom: 15px;
+}
+
+.sous_menu1
+{
+padding: 0px;
+margin-left: 535px;
+position:absolute;
+top:35px;
+}
+
+#link_home
+{
+padding: 0px;
+width: 53px; 
+height: 27px;
+border: none;
+}
+
+.sous_menu2
+{
+padding: 0px;
+margin-left: 655px;
+position:absolute;
+top:77px;
+}
+
+#link_graphicnovels
+{
+padding: 0px;
+width: 118px; 
+height: 32px;
+border: none;
+}
+
+.sous_menu3
+{
+padding: 0px;
+margin-left: 260px;
+position:absolute;
+top:64px;
+}
+
+#link_onlinecomics
+{
+padding: 0px;
+width: 164px; 
+height: 29px;
+border: none;
+}
+
+#corps
+{
+width: 950px;
+
+}
+
+.page
+{
+width: 750px;
+float: left;
+margin-bottom: 15px;
+}
+
+.box_mini
+{
+width:190px;
+float: right;
+background-image: url("../img/box_mini_middle.jpg");
+background-repeat: repeat;
+margin: 0px;
+padding: 0px;
+}
+
+#pied
+{
+height: 10px;
+
+}
+
+p
+{
+padding: 10px;
+margin: 0px;
+}
+
+img
+{
+border: none;
+margin: 0px;
+padding: 0px;
+}
+
+.img_float
+{
+float: left;
+}
+
+a
+{
+font-size: 13px;
+font-family: Verdana, Times New Roman, serif;
+color: #4A7C7F;
+font-weight: bold;
+text-decoration:none;
+}
+
+a:hover
+{
+color: #6DA1A4;
+text-decoration:none;
+}
+
+.text_title
+{
+color: #333438;
+font-size: 19px;
+font-family: Arial Black, Verdana, Times New Roman, serif;
+font-weight: bold;
+}
+
+.text
+{
+color: #364A73;
+font-size: 13px;
+font-family: Verdana, Times New Roman, serif;
+}
+
+/*INFOBULLES */
+
+
+a.info {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   bottom: 545px;
+   text-decoration: none;
+}
+a.info span {
+   display: none; /* on masque l'infobulle */
+
+}
+a.info:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+a.info:hover span {
+   display: inline; /* on affiche l'infobulle */
+
+}
+
+img.floatLeft5 { 
+margin: 0px; 
+border: none;
+position: absolute;
+ top: 0px; /* on positionne notre infobulle */
+ left: 0px;  
+}

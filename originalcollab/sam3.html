@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<script type="text/javascript" src="index/virtualpaginate.js">
+
+/***********************************************
+* Virtual Pagination script- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<style type="text/css">
+
+/*Sample CSS used for the Virtual Pagination Demos. Modify/ remove as desired*/
+
+.paginationstyle{ /*Style for demo pagination divs*/
+	width: 650px;
+	text-align: left;
+	padding: 0px 0;
+	margin: 0px 0;
+}
+
+.paginationstyle select{ /*Style for demo pagination divs' select menu*/
+border: 1px solid navy;
+margin: 0 15px;
+}
+
+.paginationstyle a{ /*Pagination links style*/
+padding: 0 5px;
+text-decoration: none;
+border: 1px solid black;
+color: navy;
+background-color: white;
+}
+
+.paginationstyle a:hover, .paginationstyle a.selected{
+color: #000;
+background-color: #FEE496;
+}
+
+.paginationstyle a.imglinks{ /*Pagination Image links style (class="imglinks") */
+border: 0;
+padding: 0;
+}
+
+.paginationstyle a.imglinks img{
+	vertical-align: top;
+	border: 0;
+}
+
+.paginationstyle a.imglinks a:hover{
+background: none;
+}
+
+.paginationstyle .flatview a:hover, .paginationstyle .flatview a.selected{ /*Pagination div "flatview" links style*/
+color: #000;
+background-color: yellow;
+}
+
+.style3 {color: #CE7B85}
+a:link {
+	color: #754D7F;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #754D7F;
+}
+a:hover {
+	text-decoration: none;
+	color: #CE7E88;
+}
+a:active {
+	text-decoration: none;
+}
+</style>
+
+
+
+<script type="text/javascript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Spera</title>
+
+<style type="text/css">
+<!--
+body {
+	background-color: #F7F6F0;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.style1 {color: #FFFFFF}
+.style2 {
+	color: #815788;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 10px;
+}
+.style4 {font-size: 10px; font-family: "Courier New", Courier, monospace;}
+-->
+</style></head>
+
+<body onload="MM_preloadImages('ribbon_red.jpg','ribbon_red_pt_4.jpg')">
+<table width="1268" height="925" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="237" rowspan="3" valign="top" class="style1"><img src="TEMP_side_pt2.jpg" width="237" height="897" border="0" align="top" usemap="#index" /></td>
+    <td height="141" colspan="5" valign="top" bgcolor="#F7F6F0" class="style1"><img src="top_left_pt2.jpg" width="93" height="141" /><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','ribbon_red.jpg',1)"><img src="ribbon_purple.jpg" name="Image11" width="98" height="141" border="0" id="Image11" /></a><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','../WEBSITE 3/ribbon_red.jpg',1)"><img src="ribbon_shadow.jpg" width="19" height="141" border="0" /></a><a href="part2.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','ribbon_red_pt2.jpg',1)"><img src="ribbon_purple_pt2.jpg" name="Image9" width="98" height="141" border="0" id="Image9" /></a><img src="ribbon_shadow.jpg" width="19" height="141" /><a href="part3.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image14','','ribbon_red_pt_3.jpg',1)"><img src="ribbon_purple_pt_3.jpg" name="Image14" width="98" height="141" border="0" id="Image14" /></a><img src="ribbon_shadow.jpg" width="19" height="141" border="0" /><a href="part4.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image15','','ribbon_red_pt_4.jpg',1)"><img src="ribbon_purple_pt_4.jpg" name="Image15" width="98" height="141" border="0" id="Image15" /></a><img src="ribbon_shadow.jpg" width="19" height="141" /><img src="top_right.jpg" width="320" height="141" border="0" usemap="#Map2" /></td>
+  </tr>
+  <tr>
+    <td width="93" rowspan="2" valign="top" bgcolor="#F7F6F0" class="style1"><img src="spacer.jpg" alt="affd" width="93" height="40" /></td>
+
+    <td width="43" valign="top" bgcolor="#F7F6F0" class="style1"><!-- Pagination DIV for Demo 3  <select>
+</select> -->      <a href="sam2.html"><img src="left.jpg" alt="1" width="42" height="35" border="0" align="bottom" /></a></td>
+    <td width="22" valign="top" bgcolor="#F7F6F0" class="style1"><img src="page_numbers.jpg" alt="assdfdsv" width="22" height="40" align="absmiddle" /></td>
+    <td width="452" valign="middle" bgcolor="#F7F6F0" class="style1"><span class="style2 style9"><span class="style3"><a href="part2.html">1</a></span> <a href="mikkel2.html">2</a> <a href="mikkel3.html">3</a> <span class="style3"><a href="muura1.html">4</a></span> <span class="style3"><a href="muura2.html">5</a></span> <span class="style3"><a href="muura3.html">6</a></span> </span><span class="style9 style4 style3"><a href="muura4.html">7</a></span> <span class="style9 style4 style3"><a href="muura5.html">8</a></span><span class="style2 style9"> <span class="style3"><a href="muura6.html">9</a></span> <span class="style3"><a href="sam1.html">10</a></span> <span class="style3"><a href="sam2.html">11</a></span> <span class="style3">12</span> <a href="sam4.html">13</a> <a href="sam5.html">14</a> <a href="sam6.html">15</a> <a href="kristin1.html">16</a> <a href="kristin2.html">17</a> <a href="kristin3.html">18</a> <a href="kristin4.html">19</a> <a href="luke1.html">20</a> <a href="luke2.html">21</a> <a href="eva1.html">22</a> </span>
+
+        <!-- Initialize Demo 3 -->
+<script type="text/javascript">var whatsnew=new virtualpaginate({
+	piececlass: "virtualpage3",
+	piececontainer: 'p', //Let script know you're using "p" tags as separator (instead of default "div")
+	pieces_per_page: 1,
+	defaultpage: 0,
+	persist: true
+})
+
+whatsnew.buildpagination(["listingpaginate"])
+
+      </script>
+        <span class="style2 style9"><a href="eva2.html">23</a> <a href="stephanie1.html">24</a> <a href="stephanie2.html">25</a> <a href="stephanie3.html">26</a> <a href="hotcoffee1.html">27</a> <a href="hotcoffee2.html">28</a> <a href="hotcoffee3.html">29</a> <a href="hotcoffee4.html">30</a> <a href="julia1.html">31</a> <a href="julia2.html">32</a> <a href="jack1.html">33</a> <a href="jack2.html">34</a> <a href="katri1.html">35</a> <a href="katri2.html">36</a> <a href="christina1.html">37</a> <a href="christina2.html">38</a> <a href="christina3.html">39</a> <a href="christina4.html">40</a> <a href="christina5.html">41</a> <a href="christina6.html">42</a> <a href="christina7.html">43</a> <a href="christina8.html">44</a> <a href="ramon1.html">45</a> <a href="ramon2.html">46</a> <a href="ramon3.html">47</a> <a href="ramon4.html">48</a> <a href="gabrielle1.html">49</a> <a href="gabrielle2.html">50</a> <a href="gabrielle3.html">51</a> <a href="gabrielle4.html">52</a></span></td>
+
+    <td width="421" valign="top" bgcolor="#F7F6F0" class="style1"><a href="sam4.html"><img src="right.jpg" alt="3" width="101" height="35" border="0" align="bottom" /></a></td>
+  </tr>
+  <tr>
+    <td height="744" colspan="4" valign="top" bgcolor="#F7F6F0" class="style1"><span style="width: 800 px; border: 0px dashed gray; padding: 0px;"><br />
+          <a href="sam4.html"><img src="03 Sam Beck/spera2_small.jpg" width="700" height="904" border="0" /></a><br />
+    </span></td>
+  </tr>
+</table>
+<span class="style1">
+<map name="Map" id="Map">
+
+  <area shape="rect" coords="240,66,271,82" href="#" />
+  <area shape="rect" coords="206,66,238,83" href="#" />
+</map>
+</span>
+<map name="index" id="index">
+  <area shape="rect" coords="36,566,193,592" href="gabrielle1.html" />
+  <area shape="rect" coords="36,538,189,564" href="ramon1.html" />
+  <area shape="rect" coords="36,510,189,536" href="ramon1.html" />
+  <area shape="rect" coords="36,481,201,507" href="christina1.html" />
+  <area shape="rect" coords="34,455,166,479" href="katri1.html" />
+
+  <area shape="rect" coords="32,428,158,452" href="jack1.html" />
+  <area shape="rect" coords="31,145,161,171" href="part2.html" />
+  <area shape="rect" coords="32,398,146,423" href="julia1.html" />
+  <area shape="rect" coords="32,369,130,395" href="hotcoffee1.html" />
+  <area shape="rect" coords="26,0,217,132" href="index.html" />
+  <area shape="rect" coords="33,173,203,199" href="part2.html" />
+<area shape="rect" coords="33,202,105,226" href="muura1.html" />
+<area shape="rect" coords="32,230,137,255" href="sam1.html" />
+<area shape="rect" coords="32,257,194,282" href="kristin1.html" />
+<area shape="rect" coords="31,285,188,311" href="luke1.html" />
+<area shape="rect" coords="33,313,207,337" href="eva1.html" />
+
+<area shape="rect" coords="34,340,212,365" href="stephanie1.html" />
+</map>
+
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="132,0,203,108" href="../index.html" />
+<area shape="rect" coords="19,0,83,105" href="about.html" />
+</map>
+</body>
+</html>

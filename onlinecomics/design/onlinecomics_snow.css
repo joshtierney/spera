@@ -1,0 +1,162 @@
+body
+{width: 950px;
+margin: auto;
+margin-top: 0px;
+margin-bottom: 10px;
+background-color: #485766;
+background-image: url("../img/bg_pattern.jpg");
+background-repeat: repeat;
+}
+
+#en_tete
+{
+width: 950px;
+height: 1100px;
+background-image: url("../img/kotequog_snow.jpg");
+background-repeat: no-repeat;
+background-position: top right;
+margin: auto;
+margin-bottom: 0px;
+}
+
+.top_home
+{
+padding: 0px;
+margin-left: 535px;
+position:absolute;
+top:35px;
+}
+
+#link_home
+{
+padding: 0px;
+width: 53px; 
+height: 27px;
+border: none;
+}
+
+.top_graphicnovels
+{
+padding: 0px;
+margin-left: 655px;
+position:absolute;
+top:77px;
+}
+
+#link_graphicnovels
+{
+padding: 0px;
+width: 118px; 
+height: 32px;
+border: none;
+}
+
+.content_left
+{
+width: 420px;
+padding: 0px;
+padding-top: 170px;
+float: left;
+}
+
+.content_right
+{
+width: 420px;
+padding: 0px;
+float: right;
+margin-top: 900px;
+}
+
+.box
+{
+background-image: url("../img/box_middle.jpg");
+background-repeat: repeat;
+}
+
+
+img
+{
+border: none;
+margin: 0px;
+padding: 0px;
+}
+
+.img_float
+{
+float: left;
+}
+
+a
+{
+color: white;
+text-decoration:none;
+}
+
+a:hover
+{
+color: #D0F0EA;
+text-decoration:none;
+}
+
+p
+{
+padding: 0px 7px;
+margin: 0px;
+}
+
+.text_title
+{
+color: #333438;
+font-size: 19px;
+font-family: Arial Black, Verdana, Times New Roman, serif;
+font-weight: bold;
+}
+
+.text_right
+{
+font-size: 13px;
+font-family: Verdana, Times New Roman, serif;
+color: #4A7C7F;
+float: right;
+margin-top: 5px;
+}
+
+.text_right02
+{
+font-size: 13px;
+font-family: Verdana, Times New Roman, serif;
+color: #A1EBDE;
+float: right;
+margin-top: 5px;
+}
+
+/*INFOBULLES */
+
+
+a.info {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   bottom: 545px;
+   text-decoration: none;
+}
+a.info span {
+   display: none; /* on masque l'infobulle */
+
+}
+a.info:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+a.info:hover span {
+   display: inline; /* on affiche l'infobulle */
+
+}
+
+img.floatLeft5 { 
+margin: 0px; 
+border: none;
+position: absolute;
+ top: 0px; /* on positionne notre infobulle */
+ left: 0px;  
+}

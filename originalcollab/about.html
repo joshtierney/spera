@@ -1,0 +1,449 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<script type="text/javascript" src="index/virtualpaginate.js">
+
+/***********************************************
+* Virtual Pagination script- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<style type="text/css">
+
+/*Sample CSS used for the Virtual Pagination Demos. Modify/ remove as desired*/
+
+.paginationstyle{ /*Style for demo pagination divs*/
+	width: 650px;
+	text-align: left;
+	padding: 0px 0;
+	margin: 0px 0;
+}
+
+.paginationstyle select{ /*Style for demo pagination divs' select menu*/
+border: 1px solid navy;
+margin: 0 15px;
+}
+
+.paginationstyle a{ /*Pagination links style*/
+padding: 0 5px;
+text-decoration: none;
+border: 1px solid black;
+color: navy;
+background-color: white;
+}
+
+.paginationstyle a:hover, .paginationstyle a.selected{
+color: #000;
+background-color: #FEE496;
+}
+
+.paginationstyle a.imglinks{ /*Pagination Image links style (class="imglinks") */
+border: 0;
+padding: 0;
+}
+
+.paginationstyle a.imglinks img{
+	vertical-align: top;
+	border: 0;
+}
+
+.paginationstyle a.imglinks a:hover{
+background: none;
+}
+
+.paginationstyle .flatview a:hover, .paginationstyle .flatview a.selected{ /*Pagination div "flatview" links style*/
+color: #000;
+background-color: yellow;
+}
+a:link {
+	color: #7d5583;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #7d5583;
+}
+a:hover {
+	text-decoration: none;
+	color: #e0a8a6;
+}
+a:active {
+	text-decoration: none;
+}
+a {
+	font-weight: bold;
+}
+</style>
+
+
+
+<script type="text/javascript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Spera</title>
+
+<style type="text/css">
+<!--
+body {
+	background-color: #F7F6F0;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.style1 {color: #FFFFFF}
+.style3 {
+	color: #7d5583;
+	font-size: 11px;
+	font-family: "Courier New", Courier, monospace;
+}
+-->
+</style></head>
+
+<body onload="MM_preloadImages('ribbon_red.jpg','ribbon_red_pt2.jpg','ribbon_red_pt_4.jpg')">
+<table width="1157" height="1942" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="237" rowspan="2" valign="top" class="style1"><img src="TEMP_side.jpg" width="237" height="897" border="0" align="top" usemap="#index" /></td>
+    <td height="141" colspan="3" valign="top" bgcolor="#F7F6F0" class="style1"><img src="top_left.jpg" width="93" height="141" /><a href="index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','ribbon_red.jpg',1)"><img src="ribbon_purple.jpg" name="Image6" width="98" height="141" border="0" id="Image6" /></a><img src="ribbon_shadow.jpg" width="19" height="141" /><a href="part2.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image9','','ribbon_red_pt2.jpg',1)"><img src="ribbon_purple_pt2.jpg" name="Image9" width="98" height="141" border="0" id="Image9" /></a><a href="part3.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','ribbon_red_pt_3.jpg',1)"><img src="ribbon_shadow.jpg" width="19" height="141" border="0" /><img src="ribbon_purple_pt_3.jpg" name="Image10" width="98" height="141" border="0" id="Image10" /></a><img src="ribbon_shadow.jpg" width="19" height="141" /><a href="part4.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','ribbon_red_pt_4.jpg',1)"><img src="ribbon_purple_pt_4.jpg" name="Image13" width="98" height="141" border="0" id="Image13" /></a><img src="ribbon_shadow.jpg" width="19" height="141" /><img src="top_right.jpg" width="320" height="141" border="0" usemap="#Map3" /></td>
+  </tr>
+  <tr>
+    <td width="93" height="1801" valign="top" bgcolor="#F7F6F0" class="style1"><img src="spacer.jpg" alt="affd" width="93" height="40" /></td>
+
+    <td width="653" valign="top" bgcolor="#F7F6F0" class="style1"><!-- Pagination DIV for Demo 3  <select>
+</select> -->
+
+      <div id="listingpaginate" class="paginationstyle"><img src="space_left.jpg" width="121" height="40" /></div>
+      
+      <p><img src="about.jpg" width="126" height="71" /></p>
+      
+      <p class="style3">Spera is an ongoing fantasy comic detailing the adventures of two princesses – Pira and Lono – and a fire spirit in the form of a dog named Yonder. Fleeing their homelands after a cataclysmic event, the trio turn their escapist fantasies into a stranger reality, venturing into a land of which they had only ever heard the tallest tales.<br />
+        <br />
+Written, created and edited by Josh Tierney, Spera is a collaboration between artists from around the world, illustrated and told in consecutive sections that incorporate character designs by Afu Chan and Sarah Ferrick. These sections form a tapestry of artistic styles and storytelling methods, turning the world of Spera into a poetic, surprising and wholly unique realm.<br />
+        <br />
+Spera: Volume I will be released by <a href="http://www.archaia.com/blog/titles/spera" target="_blank">Archaia</a> as a hardcover retelling of the story this fall. You can learn more about the book by clicking <a href="http://www.archaia.com/blog/titles/spera" target="_blank">here</a> and pre-order it from online retailers such as <a href="http://www.amazon.com/Spera-1-HC-Josh-Tierney/dp/1936393301/ref=sr_1_1?ie=UTF8&qid=1311913172&sr=8-1" target="_blank">Amazon.com.</a>
+<br />
+
+<br />
+<br />
+<u>Credits:</u>
+<br />
+<br />
+<strong>Josh Tierney</strong><br />
+Writer, Editor and Creator<br />
+Dedicating his time and effort to the memory of Rob Williams<br />
+Website: <a href="http://joshtierney.com/" target="_blank">www.joshtierney.com</a><br />
+        Email: <em><a href="mailto:josh.will.tierney@gmail.com" target="_blank">josh.will.tierney@gmail.com</a></em><br />
+
+        <br />
+        with<br />
+        <br />
+        <strong>Afu Chan</strong> <br />
+        Central Character Designer and Illustrator<br />
+        Website: <a href="http://aznmextofu.deviantart.com/" target="_blank">aznmextofu.deviantart.com</a> <br />
+
+        Email: <a href="mailto:mexazntofu@yahoo.com">mexazntofu@yahoo.com</a><br />
+        <br />
+        <strong>Sarah Ferrick</strong><br />
+        Character Designer and Illustrator<br />
+        Website: <em><a href="http://esseff.aestival.net" target="_blank">esseff.aestival.net</a></em><br />
+
+        Email: <em><a href="mailto:spferrick@gmail.com" target="_blank">spferrick@gmail.com</a></em><br />
+        <br />
+        and<br />
+        <br />
+        <strong>Joel Hentges</strong><br />
+        Logo and Site Designer<br />
+
+        Website: <em><a href="http://www.joelhentges.com" target="_blank">www.joelhentges.com</a></em><br />
+        Email: <em><a href="mailto:cityache@gmail.com" target="_blank">cityache@gmail.com</a></em><br />
+        <br />
+        <strong>Marisa Williams</strong><br />
+        Proofreader<br />
+        Website: <em><a href="http://www.marisawilliams.ca" target="_blank">www.marisawilliams.ca</a></em><br />
+
+        Email: <em><a href="mailto:marisa@marisawilliams.ca" target="_blank">marisa@marisawilliams.ca</a></em><br />
+        <br /><br />
+        <u>Part 1 contributors:</u><br />
+        <br />
+        <strong>Sarah Ferrick</strong><br />
+        Website: <em><a href="http://esseff.aestival.net" target="_blank">esseff.aestival.net</a></em><br />
+
+        Email: <em><a href="mailto:spferrick@gmail.com" target="_blank">spferrick@gmail.com</a></em><br />
+        <br />
+        <strong>Ray Jones</strong><br />
+        Websites: <em><a href="http://jonesray.com" target="_blank">jonesray.com</a></em>, <em><a href="http://liedto.deviantart.com" target="_blank">liedto.deviantart.com</a></em><br />
+        Email: <em><a href="mailto:ray@jonesray.com" target="_blank">ray@jonesray.com</a></em><br />
+
+        <br />
+        <strong>Matt Houston</strong><br />
+        Website: <em><a href="http://neverrider.deviantart.com" target="_blank">neverrider.deviantart.com</a></em><br />
+        Email: <em><a href="mailto:doctorbutters@gmail.com" target="_blank">doctorbutters@gmail.com</a><br />
+          </em><br />
+        <strong>Joanna Krótka</strong><br />
+
+        Website: <em><a href="http://asiulus.deviantart.com" target="_blank">asiulus.deviantart.com</a></em><br />
+        Email: <em><a href="mailto:asiulus@op.pl" target="_blank">asiulus@op.pl</a></em><br />
+        <br />
+        <strong>Afu Chan</strong><br />
+        Website: <em><a href="http://aznmextofu.deviantart.com" target="_blank">aznmextofu.deviantart.com</a></em><br />
+
+        Email: <em><a href="mailto:mexazntofu@yahoo.com" target="_blank">mexazntofu@yahoo.com</a></em><br />
+        <br />
+        <strong>Sourya Sihachakr</strong><br />
+        Website: <em><a href="http://sourya.deviantart.com" target="_blank">sourya.deviantart.com</a></em><br />
+        Email: <em><a href="mailto:to_sourya@hotmail.com" target="_blank">to_sourya@hotmail.com</a></em><br />
+
+        <strong><br />
+        Angie Hoffmeister</strong><br />
+        Websites: <em><a href="http://www.yellowghost.net" target="_blank">www.yellowghost.net</a></em>, <em><a href="http://iphigen.deviantart.com" target="_blank">iphigen.deviantart.com</a></em><br />
+        Email: <em><a href="mailto:Mme.Peeping@web.de" target="_blank">Mme.Peeping@web.de</a></em><a href="mailto:Mme.Peeping@web.de"><br />
+  </a><br />
+
+  <strong>Timothy Weaver</strong><br />
+        Websites: <em><a href="http://www.dafttimo.com" target="_blank">www.dafttimo.com</a></em>, <em><a href="http://thetimo.deviantart.com" target="_blank">thetimo.deviantart.com</a></em><br />
+        Email: <em><a href="mailto:11blue@gmail.com" target="_blank">11blue@gmail.com</a></em><br />
+  <br />
+  <strong>Bettina M. George</strong><br />
+
+        Website: <em><a href="http://ptlaulau.com" target="_blank">ptlaulau.com</a></em><br />
+        Email: <em><a href="mailto:ptlaulau@ptlaulau.com" target="_blank">ptlaulau@ptlaulau.com<br />
+  </a></em><br />
+      <p class="style3"><u>Part 2 contributors:</u></p>
+      <p class="style3"><strong>Mikkel Sommer</strong> <br />
+
+        Websites: <a href="http://mikkelsommer.blogspot.com/">mikkelsommer.blogspot.com</a>, <a href="http://mikkelsommer.deviantart.com/">mikkelsommer.deviantart.com</a> <br />
+        Email: <a href="mailto:miggelsommer@gmail.com">miggelsommer@gmail.com</a> <br />
+        <br />
+        <strong>Muura</strong> <br />
+
+        Websites: <a href="http://muura.org/">muura.org</a>, <a href="http://muura.deviantart.com/">muura.deviantart.com</a>  <br />
+        Email: <a href="mailto:muura@muura.org">muura@muura.org</a>  <br />
+        <br />
+        <strong>Sam Beck</strong> <br />
+
+        Website: <a href="http://solardiente.deviantart.com/">solardiente.deviantart.com  <br />
+        </a><br />
+        <strong>Kristin Mukai</strong> <br />
+        Websites: <a href="http://www.yourquietneighbors.com/">www.yourquietneighbors.com</a>, <a href="http://hellokbear.deviantart.com/">hellokbear.deviantart.com</a> <br />
+
+        Email: <a href="mailto:kr.mukai@gmail.com">kr.mukai@gmail.com</a> <br />
+        <br />
+        <strong>Luke Pearson</strong> <br />
+        Websites: <a href="http://thatlukeperson.blogspot.com/">thatlukeperson.blogspot.com</a>, <a href="http://mumblingidiot.deviantart.com/">mumblingidiot.deviantart.com</a>  <br />
+
+        Email: <a href="mailto:lukke@hotmail.co.uk">lukke@hotmail.co.uk</a> <br />
+        <br />
+        <strong>Eva Vercauteren</strong> <br />
+        Website: <a href="http://eva-ve.deviantart.com/">eva-ve.deviantart.com</a> <br />
+        <br />
+
+        <strong>Stephanie Holmes</strong> <br />
+        Website: <a href="http://stephholmes.deviantart.com/">stephholmes.deviantart.com</a> <br />
+        <br />
+        <strong>Hotcoffee</strong> <br />
+        Website: <a href="http://drrecords.deviantart.com/">drrecords.deviantart.com </a><br />
+
+        Email: <a href="mailto:lamesalamander@hotmail.com">lamesalamander@hotmail.com</a> <br />
+        <br />
+        <strong>Julia Scott</strong> <br />
+        Website: <a href="http://thessjulia.deviantart.com/">thessjulia.deviantart.com</a> <br />
+        Email: <a href="mailto:gumbabar@yahoo.com">gumbabar@yahoo.com</a> <br />
+
+        <br />
+        <strong>Jack Teagle</strong> <br />
+        Websites: <a href="http://www.jackteagle.co.uk/">www.jackteagle.co.uk</a>, <a href="http://teagle.deviantart.com/">teagle.deviantart.com</a> <br />
+        Email: <a href="mailto:jackteagle@hotmail.co.uk">jackteagle@hotmail.co.uk</a> <br />
+
+        <br />
+        <strong>Katri Kallio</strong> <br />
+        Website: <a href="http://rokoroko.deviantart.com/">rokoroko.deviantart.com</a> <br />
+        <br />
+        <strong>Christina Siravo</strong> <br />
+
+        Website: <a href="http://bluebirdie.deviantart.com/">bluebirdie.deviantart.com</a> <br />
+        Email: <a href="mailto:csiravo@gmail.com">csiravo@gmail.com</a> <br />
+        <br />
+        <strong>Ramón Sierra with Gisel Gonzalez</strong> <br />
+        Websites: <a href="http://trendepan.blogspot.com/">trendepan.blogspot.com</a>, <a href="http://cocor.deviantart.com/">cocor.deviantart.com</a>  <br />
+
+        Email: <a href="mailto:cocomingo@hotmail.com">cocomingo@hotmail.com</a>  <br />
+        <br />
+        <strong>Gabrielle 
+        Rose</strong> <br />
+        Websites: <a href="http://drawgabbydraw.tumblr.com/">drawgabbydraw.tumblr.com</a>, <a href="http://vermelho.deviantart.com/">vermelho.deviantart.com</a> <br />
+
+        Email: <a href="mailto:drawgabbydraw@gmail.com">drawgabbydraw@gmail.com</a><br />
+        <br />
+      <p class="style3">        <U>Part 3 contributors:</U>
+
+        <br />
+        <br />
+        <strong>J. Arashi Hara</strong>        <br />
+
+        Websites: <a href="http://saprophilous.deviantart.com/" target="_blank">saprophilous.deviantart.com</a>        <br />
+        Email: <a href="mailto:saprophilous@gmail.com">saprophilous@gmail.com</a>        <br />
+        <br />
+        <strong>Olivier Pichard</strong>        <br />
+        Websites: <a href="http://olivier2046.free.fr/" target="_blank">olivier2046.free.fr</a>, <a href="http://olivier2046.deviantart.com/" target="_blank">olivier2046.deviantart.com</a>        <br />
+
+        Email: <a href="mailto:o_pichard@yahoo.fr">o_pichard@yahoo.fr</a>        <br />
+        <strong><br />
+        Michael Dialynas</strong>        <br />
+        Website: <a href="http://woodencrown.com/" target="_blank">www.woodencrown.com</a>, <a href="http://madart84.deviantart.com/" target="_blank">madart84.deviantart.com</a>        <br />
+
+        Email: <a href="mailto:michaeldialynas@gmail.com">michaeldialynas@gmail.com</a>        <br />
+        <br />
+        <strong>Oliver Hull</strong>        <br />
+        Websites: <a href="http://www.oliverhull.com.au/" target="_blank">www.oliverhull.com.au</a>, <a href="http://hummachine.deviantart.com/" target="_blank">hummachine.deviantart.com</a>        <br />
+
+        Email: <a href="mailto:oliver.boat@gmail.com">oliver.boat@gmail.com</a>        <br />
+        <br />
+        <strong>Cynthia Lim</strong>        <br />
+        Websites: <a href="http://milc.deviantart.com/" target="_blank">milc.deviantart.com</a>        <br />
+        Email: <a href="mailto:cynthiaatje@gmail.com">cynthiaatje@gmail.com</a>        <br />
+
+        <br />
+        <strong>David Grimshaw</strong>        <br />
+        Website: <a href="http://powflip.deviantart.com/" target="_blank">powflip.deviantart.com</a>        <br />
+        <br />
+        <strong>Valerie Chua</strong>        <br />
+
+        Website: <a href="http://green-tea.deviantart.com/" target="_blank">green-tea.deviantart.com</a>        <br />
+        <br />
+        <strong>Dado de Guzman</strong>        <br />
+        Website: <a href="http://dadothegreat.deviantart.com/" target="_blank">dadothegreat.deviantart.com</a>        <br />
+        Email: <a href="mailto:sjcdfm@gmail.com">sjcdfm@gmail.com</a>        <br />
+
+        <strong><br />
+        Vlad Gusev</strong>        <br />
+        Website: <a href="http://bigconejo.deviantart.com/" target="_blank">bigconejo.deviantart.com</a>        <br />
+        Email: <a href="mailto:dametaco@gmail.com">dametaco@gmail.com</a>        <br />
+<br />
+      <p class="style3">        <U>Part 4 contributors:</U>
+
+        <br />
+        <br />
+        <strong>Louise McLennan</strong>        <br />
+
+        Website: <a href="http://lemclennan.com/" target="_blank">www.lemclennan.com</a>        <br />
+        Email: <a href="mailto:louisemclennan@gmail.com">louisemclennan@gmail.com</a>        <br />
+        <br />
+
+        <strong>Rachel Saunders</strong>        <br />
+
+        Website: <a href="http://barukurii.deviantart.com/" target="_blank">barukurii.deviantart.com</a>        <br />
+        Email: <a href="mailto:rachelsaunders@hotmail.co.uk">rachelsaunders@hotmail.co.uk</a>        <br />
+        <br />
+
+        <strong>Nick Edwards</strong>        <br />
+
+        Website: <a href="http://mrdynamite.deviantart.com/" target="_blank">mrdynamite.deviantart.com</a>        <br />
+        Email: <a href="mailto:goodbyemrchips@gmail.com">goodbyemrchips@gmail.com</a>        <br />
+        <br />
+
+        <strong>Sallamari Rantala</strong>        <br />
+
+        Website: <a href="http://fushii.deviantart.com/" target="_blank">fushii.deviantart.com</a>        <br />
+        Email: <a href="mailto:sallamari.rantala@gmail.com">sallamari.rantala@gmail.com</a>        <br />
+        <br />
+
+        <strong>Kyla Vanderklugt</strong>        <br />
+
+        Website: <a href="http://kylavanderklugt.com/" target="_blank">www.kylavanderklugt.com</a>        <br />
+        Email: <a href="mailto:kyla@kylavanderklugt.com">kyla@kylavanderklugt.com</a>        <br />
+        <br />
+
+        <strong>Olli Hihnala</strong>        <br />
+
+        Website: <a href="http://korintic.deviantart.com/" target="_blank">korintic.deviantart.com</a>        <br />
+        Email: <a href="mailto:ohihnala@gmail.com">ohihnala@gmail.com</a>        <br />
+        <br />
+
+        <strong>Anna Wieszczyk</strong>        <br />
+
+        Website: <a href="http://muckcracker.deviantart.com/" target="_blank">muckcracker.deviantart.com</a>        <br />
+        Email: <a href="mailto:yumyum@o2.pl">yumyum@o2.pl</a>        <br />
+        <br />
+
+        <strong>Giannis Milonogiannis</strong>        <br />
+
+        Websites: <a href="http://milonogiannis.com/" target="_blank">www.milonogiannis.com</a>, <a href="http://juntaro.deviantart.com/" target="_blank">juntaro.deviantart.com</a>       <br />
+        Email: <a href="mailto:milonogiannis@gmail.com">milonogiannis@gmail.com</a>        <br />
+        <br />
+
+        <strong>Eva Eskelinen</strong>        <br />
+
+        Website: <a href="http://nayruchan.deviantart.com/" target="_blank">nayruchan.deviantart.com</a>        <br />
+        <br />
+
+        <strong>Inés Estrada</strong>        <br />
+
+        Website: <a href="http://inechi.com/" target="_blank">www.inechi.com</a>        <br />
+        Email: <a href="mailto:gatosaurio@gmail.com">gatosaurio@gmail.com</a>        <br />
+        <br />
+
+        <strong>Sloane Leong</strong>        <br />
+
+        Websites: <a href="http://www.war.respark.net/" target="_blank">war.respark.net</a>, <a href="http://strayheadache.deviantart.com/" target="_blank">strayheadache.deviantart.com</a>       <br />
+        Email: <a href="mailto:sloaneleong@gmail.com">sloaneleong@gmail.com</a>        <br />
+        <br /><br />
+
+        <i>Spera is the intellectual property of Josh Tierney. <br>
+      All art is the property of its respective creators.</i>       </p>
+    </p></td>
+    <td width="174" valign="top" bgcolor="#F7F6F0" class="style1">&nbsp;</td>
+  </tr>
+</table>
+<span class="style1">
+<map name="Map" id="Map">
+  <area shape="rect" coords="240,66,271,82" href="#" />
+
+  <area shape="rect" coords="206,66,238,83" href="#" />
+</map>
+</span>
+<map name="index" id="index">
+  <area shape="rect" coords="33,146,178,171" href="index.html" />
+  <area shape="rect" coords="32,398,216,424" href="bettina1.html" />
+  <area shape="rect" coords="32,370,214,397" href="timo1.html" />
+  <area shape="rect" coords="6,0,229,140" href="index.html" />
+  <area shape="rect" coords="33,173,178,198" href="index.html" />
+  <area shape="rect" coords="33,202,145,226" href="ray1.html" />
+
+  <area shape="rect" coords="32,230,179,254" href="matt1.html" />
+  <area shape="rect" coords="32,258,187,282" href="joanna1.html" />
+  <area shape="rect" coords="31,284,137,309" href="afu1.html" />
+  <area shape="rect" coords="33,313,213,337" href="sourya1.html" />
+  <area shape="rect" coords="34,340,213,367" href="angie1.html" />
+</map>
+
+<map name="Map2" id="Map2"><area shape="rect" coords="496,0,569,108" href="../index.html" />
+</map>
+<map name="Map3" id="Map3">
+  <area shape="rect" coords="132,-5,207,107" href="../index.html" />
+
+</map></body>
+</html>

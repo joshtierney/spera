@@ -1,0 +1,153 @@
+body
+{width: 950px;
+margin: auto;
+margin-top: 0px;
+margin-bottom: 10px;
+background-color: #485766;
+background-image: url("../img/bg_pattern.jpg");
+background-repeat: repeat;
+}
+
+#en_tete
+{
+width: 950px;
+height: 152px;
+background-image: url("../img/ban.jpg");
+background-repeat: no-repeat;
+margin: auto;
+margin-top: 0px;
+margin-bottom: 15px;
+}
+
+.sous_menu1
+{
+padding: 0px;
+margin-left: 535px;
+position:absolute;
+top:35px;
+}
+
+#link_home
+{
+padding: 0px;
+width: 53px; 
+height: 27px;
+border: none;
+}
+
+.sous_menu2
+{
+padding: 0px;
+margin-left: 655px;
+position:absolute;
+top:77px;
+}
+
+#link_graphicnovels
+{
+padding: 0px;
+width: 118px; 
+height: 32px;
+border: none;
+}
+
+.sous_menu3
+{
+padding: 0px;
+margin-left: 260px;
+position:absolute;
+top:64px;
+}
+
+#link_onlinecomics
+{
+padding: 0px;
+width: 164px; 
+height: 29px;
+border: none;
+}
+
+#corps
+{
+width: 950px;
+
+}
+
+.page
+{
+width: 950px;
+float: left;
+margin-bottom: 15px;
+}
+
+.menu
+{
+width:0px;
+float: right;
+}
+
+#pied
+{
+height: 10px;
+
+}
+
+img
+{
+border: none;
+margin: 0px;
+padding: 0px;
+}
+
+b
+{
+color: #D0F0EA;
+}
+
+a
+{
+color: white;
+text-decoration:none;
+}
+
+a:hover
+{
+color: #D0F0EA;
+text-decoration:none;
+}
+
+.text
+{
+color: #86BDB2;
+}
+
+/*INFOBULLES */
+
+
+a.info {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   bottom: 545px;
+   text-decoration: none;
+}
+a.info span {
+   display: none; /* on masque l'infobulle */
+
+}
+a.info:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+a.info:hover span {
+   display: inline; /* on affiche l'infobulle */
+
+}
+
+img.floatLeft5 { 
+margin: 0px; 
+border: none;
+position: absolute;
+ top: 0px; /* on positionne notre infobulle */
+ left: 0px;  
+}

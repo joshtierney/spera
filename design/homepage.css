@@ -1,0 +1,220 @@
+/*----------------------------------- less than 1700 ------------------------------------------*/
+@media (max-width: 1700px) {
+    /* votre code ici, pour les écrans de taille < 800 px */
+	
+	#en_tete
+		{
+		padding-top: 10px;
+		margin-bottom: 10px;
+		width: 950px;
+		height: 725px;
+		margin: auto;
+		margin-bottom: 0px;
+		}
+
+	.sous_menu_news
+		{
+		padding: 0px;
+		margin-left: 700px;
+		position:absolute;
+		top:78px;
+		}
+	
+	#link_news
+		{
+		padding: 0px;
+		width: 65px; 
+		height: 25px;
+		border: none;
+		}
+
+	.sous_menu2
+		{
+		padding: 0px;
+		margin-left: 380px;
+		position:absolute;
+		top:440px;
+		}
+
+	.sous_menu3
+		{
+		padding: 0px;
+		margin-left: 563px;
+		position:absolute;
+		top:440px;
+		}
+
+	.sous_menu4
+		{
+		padding: 0px;
+		margin-left: 746px;
+		position:absolute;
+		top:440px;
+		}
+
+	#link_main
+		{
+		padding: 0px;
+		width: 120px; 
+		height: 74px;
+		border: none;
+		/*background-color: red;*/
+		}
+
+	#corps
+		{
+		margin-left: 210px;
+		margin-bottom: 20px;
+		padding: 5px;
+		background-color: #FFE0B1;
+		}	
+}
+
+/*----------------------------------- more than 1700 px ------------------------------------------*/
+@media (min-width: 1701px) {
+    /* votre code ici, pour les écrans de taille supérieure à 1601 px */
+
+	#en_tete
+		{
+		padding-top: 10px;
+		margin-bottom: 10px;
+		width: 1600px;
+		height: 1200px;
+		margin: auto;
+		margin-bottom: 0px;
+		}
+
+	.sous_menu_news
+		{
+		padding: 0px;
+		margin-left: 1174px;
+		position:absolute;
+		top:123px;
+		}
+	
+	#link_news
+		{
+		padding: 0px;
+		width: 120px; 
+		height: 43px;
+		border: none;
+		/*background-color: red;*/
+		}
+
+	.sous_menu2
+		{
+		padding: 0px;
+		margin-left: 640px;
+		position:absolute;
+		top:735px;
+		}
+
+	.sous_menu3
+		{
+		padding: 0px;
+		margin-left: 950px;
+		position:absolute;
+		top:750px;
+		}
+
+	.sous_menu4
+		{
+		padding: 0px;
+		margin-left: 1260px;
+		position:absolute;
+		top:750px;
+		}
+
+	#link_main
+		{
+		padding: 0px;
+		width: 200px; 
+		height: 125px;
+		border: none;
+		/*background-color: red;*/
+		}
+
+	#corps
+		{
+		margin-left: 210px;
+		margin-bottom: 20px;
+		padding: 5px;
+		background-color: #FFE0B1;
+		}	
+}
+
+/*----------------------------------- permanant values ------------------------------------------*/
+
+body
+{
+margin: auto;
+background-color: #485766;
+background-image: url("../img/bg_pattern.jpg");
+background-repeat: repeat;
+}
+
+img.resize
+{
+width: 100%;
+}
+
+
+
+
+
+img
+{
+border: none;
+margin: 0px;
+padding: 0px;
+}
+
+p
+{
+margin: 0px;
+padding: 0px;
+}
+
+
+
+/*INFOBULLES */
+
+
+a.info {
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   bottom: 545px;
+   text-decoration: none;
+}
+a.info span {
+   display: none; /* on masque l'infobulle */
+
+}
+a.info:hover {
+   background: none; /* correction d'un bug IE */
+   z-index: 500; /* on définit une valeur pour l'ordre d'affichage */
+}
+a.info:hover span {
+   display: inline; /* on affiche l'infobulle */
+
+}
+
+img.floatNews { /* LINK NEWS */
+margin: 0px; 
+border: none;
+position: absolute;
+ top: 0px; /* on positionne notre infobulle */
+ left: 0px; 
+ width: 100%; 
+}
+		
+	img.floatParchment 
+		{ /* PARCHEMIN 01 ORIGINAL COLLAB */
+		margin: 0px; 
+		border: none;
+		position: absolute;
+		top: -260%; /* on positionne notre infobulle */
+		left: -100%;  
+		width: 250%;
+		}
