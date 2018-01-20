@@ -12,6 +12,21 @@
 		margin-bottom: 0px;
 		}
 
+	.sous_menu_patreon
+		{
+		padding: 0px;
+		margin-left: 250px;
+		position:absolute;
+		top:62px;
+		}
+	
+		
+	img.sizePatreon 
+		{ /* LINK NEWS */
+		 width: 120px; 
+		 border-radius: 6px;
+		}
+
 	.sous_menu_news
 		{
 		padding: 0px;
@@ -82,6 +97,20 @@
 		height: 1200px;
 		margin: auto;
 		margin-bottom: 0px;
+		}
+
+	.sous_menu_patreon
+		{
+		padding: 0px;
+		margin-left: 424px;
+		position:absolute;
+		top: 97px;
+		}
+	
+	img.sizePatreon 
+		{ /* LINK NEWS */
+		 width: 100%; 
+		 border-radius: 10px;
 		}
 
 	.sous_menu_news
